@@ -6,17 +6,17 @@ msys2 是一个类似linux环境，上网下载一个 msys2 64或者32位版本�
 
 我这里安装的是64位版本，按照默认的方式安装
 
-![msys2安装](./image/msys2.png)
+![msys2安装](https://github.com/catcheroftime/ThirdPkg/blob/master/MingwCompileFFmpeg/image/msys2.png)
 
 安装完成之后，可以简单看一下安装路径下的文件层次结构
 
-![msys2文件层次](./image/msys2_filelevel.png)
+![msys2文件层次](https://github.com/catcheroftime/ThirdPkg/blob/master/MingwCompileFFmpeg/image/msys2_filelevel.png)
 
 ### 更新字符集(不太重要)
 
 打开安装目录下的 `msys2_shell.cmd` 文件, 在弹窗的标题栏上，右击选择 `Options...` , 选择 `Text` , 更改显示中文的字符集为 `GBK` ，避免乱码.如下图
 
-![msys2更新字符集](./image/msys2_updatetext.png)
+![msys2更新字符集](https://github.com/catcheroftime/ThirdPkg/blob/master/MingwCompileFFmpeg/image/msys2_updatetext.png)
 
 ### 配置镜像源
 
@@ -24,7 +24,7 @@ msys2 使用的是 Pacman 进行包管理，在下载安装第三方库的时候
 
 以我的为例， 我将 `msys2` 安装在 `C:\msys64` , 管理镜像源的文件在路径 `C:\msys64\etc\pacman.d` 文件夹下,如下图，将文件地址更改为国内的中科大镜像
 
-![msys2安装](./image/msys2_downpath.png)
+![msys2安装](https://github.com/catcheroftime/ThirdPkg/blob/master/MingwCompileFFmpeg/image/msys2_downpath.png)
 
 分别更新 mirrorlist.mingw32 文件
 
@@ -69,7 +69,7 @@ mirrorlist.msys 文件
 
 打开安装目录下的 `msys2_shell.cmd` 文件, 首先查看已经提供的 GCC 版本选择
 
-![msys2_mingw安装](./image/msys2_installgcc.png)
+![msys2_mingw安装](https://github.com/catcheroftime/ThirdPkg/blob/master/MingwCompileFFmpeg/image/msys2_installgcc.png)
 
 如图， 可以看到2个版本的 `gcc` , 32位和64位， 根据实际的需要选择安装， 我这里安装的是32位
 
